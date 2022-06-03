@@ -1,0 +1,9 @@
+busqueda:
+ version: 1.x
+ css:
+  theme:
+   css/busqueda-theme.css: {}
+ js:
+  js/command.js: {}
+ dependencies:
+  - core/drupal.ajax

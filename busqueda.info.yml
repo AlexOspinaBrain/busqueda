@@ -1,0 +1,8 @@
+name: Busca productos.
+description: 'Dropdown para busqueda de productos'
+package: custom
+type: module
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  - commerce:commerce_product
