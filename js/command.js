@@ -6,5 +6,6 @@
         } else {
             $('#divProducts').css('display','none');
         }
+        
     }
 })(jQuery, Drupal);

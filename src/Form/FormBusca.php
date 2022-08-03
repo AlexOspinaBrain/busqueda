@@ -31,7 +31,9 @@ class FormBusca extends FormBase {
       '#placeholder' => "Buscar...",
       '#prefix' => '<div class="dropdownBP"><div class="dropdownBP-content" id="buscaProducto">',
       '#suffix' => '<div id="divProducts"></div></div></div>',
-      '#theme_wrappers' => 'container',
+      /*'#theme-wrapper' => ['alex'],*/
+      '#input_group' => FALSE,
+      
       '#attached' => [
               'library' => [
                 'busqueda/busqueda',
